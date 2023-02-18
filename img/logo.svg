@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266" height="50" viewBox="0 0 266 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        text-anchor: middle;
+        fill: #fff;
+        font-family: "Bebas Neue";
+      }
+
+      .cls-2 {
+        font-family: Impact;
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <image id="Capa_0" data-name="Capa 0" width="266" height="50" xlink:href="data:img/png;base64,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"/>
+  <text id="ESTUDIO_REBEL" data-name="ESTUDIO REBEL" class="cls-1" transform="matrix(1.771, 0, 0, 1.771, 156, 38.461)"><tspan x="0">ESTUDIO <tspan class="cls-2">REBEL</tspan></tspan></text>
+</svg>
