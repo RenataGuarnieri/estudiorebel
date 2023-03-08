@@ -20,6 +20,9 @@
 .container-fluid{
     background-color: black;
 }
+.contacto{
+    background-color: #d2d264;
+}
 .navbar-brand{
     float: left;
 }
@@ -34,6 +37,7 @@
 footer{
     padding: 2px;
     background-color: black;
+    bottom: 0;
 }
 .redes{
     display: flex;
@@ -73,20 +77,24 @@ ul li{
     display: inline-block;
 }
 body{
-    background-color:#b3b3b3;
-}
-img{
-    border: 6px solid #d2d264;
+    background-color:#ffffff;
 }
 form{
     text-align: center;
 }
 h1{
     font-family: 'Racing Sans One';
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    font-family: 'Racing Sans One';
     font-size: 25px;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 .parrafo1{
     font-family: 'Roboto Slab', serif;
@@ -95,15 +103,17 @@ h1{
     font-size: 15px;
     line-height: 25px;
     color:rgb(0, 0, 0);
+    margin-top: 50px;
 }
 .parrafo2{
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
     color:rgb(0, 0, 0);
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .portfolio{
@@ -153,7 +163,6 @@ img.icon{
     background-color: #d2d264;
     border-radius: 5px;
     padding: 10px;
-    margin-left: 50px;
 }
 .formulario{
     border: none;
@@ -167,12 +176,6 @@ img.icon{
     font-size: 24px;
     padding: 10px;
 }
-.quienSoy{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
-    align-content: center;
-}
 .bio{
     margin: 40px;
     display: flex;
@@ -181,6 +184,13 @@ img.icon{
 }
 .biografia{
     margin-top: 30px;
+    background-color: #f8f9fa;
+}
+.fotobio{
+    background-color: white;
+}
+.quiensoy{
+    background-color: #f8f9fa;
 }
 .sinBorde{
     border: 0px;
@@ -194,13 +204,8 @@ img.icon{
     margin-bottom: 30px;
 }
 .ubicacion{
-    margin-left: 10px;
-    margin-top: 80px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .servicios{
     display: grid;
@@ -211,7 +216,12 @@ img.icon{
     border: 4px solid #d2d264;
 }
 .serv{
-    margin: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.serv2{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -219,6 +229,16 @@ img.icon{
 .icono1{
     border: none;
 }
+.icono2{
+    margin-top: 10px;
+        transform: scale(var(--escala, 1));
+        transition: transform 0.25s;
+}
+.icono2:hover{
+        --escala: 1.2;
+        cursor:pointer;
+}
+
 .texto{
     margin: 20px;
     text-align: center;
@@ -229,12 +249,43 @@ img.icon{
     font-size: 32px;
     width: 33.33%;
     margin: 5px;
+    border-radius: 4px;
 }
 .botoncito{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+.card-title{
+    font-family: 'Bebas Neue', cursive;
+    color: #000000;
+}
+.text-secondary{
+    text-align: left;
+}
+.card-img-top {
+    max-height: 250px;
+    overflow: hidden;
+}
+.card-title a:link {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
+.card-text{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 15px;
+}
+.cuadroServicios{ 
+    background-color: #f8f9fa;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /*media queries - mobile*/
 @media screen and (max-width: 576px){
     .cuadroContacto{
@@ -243,6 +294,9 @@ img.icon{
         grid-template-rows: 2fr;
         border: none;
         margin: auto;
+    }
+    .map-responsive{
+        width: 100%;
     }
 
 }

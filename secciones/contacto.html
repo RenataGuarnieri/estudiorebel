@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="./inicio.html">
-            <img class="logo" src="../img/logo1.jpg" alt="">
+            <img class="logo" src="../img/logo1.jpg" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,56 +41,59 @@
         </div>
         </nav>
     </header>
-    <main>
-        <section class="cuadroContacto">
-            <div class="map-responsive">
-                <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.330701367263!2d-62.27266298407289!3d-38.71021579364036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd3c65e0cc21%3A0x1823c4ca811d1857!2sEstudio%20Rebel!5e0!3m2!1ses!2sar!4v1676633340167!5m2!1ses!2sar" width="576px" height="426px" style="border: none" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+    <div class="container-fluid contacto">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cuadroForm">
+                    <h1>¡ESCRIBIME!</h1>
+                    <p class="parrafo2">Te responderé lo antes posible
+                    </p>    
+                <div>
+                <form action="">
+                        <fieldset class="formulario">
+                        <div>
+                            <label for="nombre"></label>
+                            <textarea name="nombre"
+                            id="comentario" cols="50" rows="1" placeholder="Tu nombre"></textarea>
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <textarea name="email"
+                            id="comentario" cols="50" rows="1" placeholder="Tu email"></textarea>
+                        </div>
+                        <div>
+                            <label for="telefono"></label>
+                            <textarea name="telefono"
+                            id="comentario" cols="50" rows="1" placeholder="Tu teléfono"></textarea>
+                        </div>
+                        <div>
+                            <label for="comentario"></label>
+                            <textarea name="comentario"
+                            id="comentario" cols="50" rows="10" placeholder="Comentame sobre tu proyecto y qué estás necesitando"></textarea>
+                        </div>
+                        <input type="submit" class="button" value="ENVIAR MENSAJE">
+                        </fieldset>
+                </form>
+                </div>        
             </div>
-        <div class="cuadroForm">
-            <h1>¡ESCRIBIME!</h1>
-            <p class="parrafo2">Te responderé lo antes posible
-            </p>    
-        <div>
-        <form action="">
-                <fieldset class="formulario">
-                <div>
-                    <label for="nombre"></label>
-                    <textarea name="nombre"
-                    id="comentario" cols="50" rows="1" placeholder="Tu nombre"></textarea>
-                </div>
-                <div>
-                    <label for="email"></label>
-                    <textarea name="email"
-                    id="comentario" cols="50" rows="1" placeholder="Tu email"></textarea>
-                </div>
-                <div>
-                    <label for="telefono"></label>
-                    <textarea name="telefono"
-                    id="comentario" cols="50" rows="1" placeholder="Tu teléfono"></textarea>
-                </div>
-                <div>
-                    <label for="comentario"></label>
-                    <textarea name="comentario"
-                    id="comentario" cols="50" rows="10" placeholder="Comentame sobre tu proyecto y qué estás necesitando"></textarea>
-                </div>
-                <input type="submit" class="button" value="ENVIAR MENSAJE">
-                </fieldset>
-        </form>
+            <div class="col-md-12" style="text-align:center">
+                <div class="map-responsive">
+                    <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.330701367263!2d-62.27266298407289!3d-38.71021579364036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbd3c65e0cc21%3A0x1823c4ca811d1857!2sEstudio%20Rebel!5e0!3m2!1ses!2sar!4v1676633340167!5m2!1ses!2sar" width="100%" height="300px" style="border: none" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>    
+            </div>
         </div>
-        </section>
-    </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
-</body>
 <footer>
     <div class="redes">
-        <a href="https://www.behance.net/renataguarnieri" target="_blank"><img class="icon" src="../img/behance.svg" width="50px" height="50px" alt=""></a>
-        <a href="https://ar.linkedin.com/in/renata-guarnieri" target="_blank"><img class="icon" src="../img/linkedin.svg" width="50px" height="50px" alt=""></a>
-        <a href="https://www.instagram.com/estudio_rebel/?hl=es-la" target="_blank"><img class="icon" src="../img/instagram.svg" width="50px" height="50px" alt=""></a>
-        <a href="https://wa.link/4x61n6" target="_blank"><img class="icon" src="../img/whatsapp.svg" width="50px" height="50px" alt=""></a>
+        <a href="https://www.behance.net/renataguarnieri" target="_blank"><img class="icon" src="../img/behance.svg" width="50px" height="50px" alt="behance"></a>
+        <a href="https://ar.linkedin.com/in/renata-guarnieri" target="_blank"><img class="icon" src="../img/linkedin.svg" width="50px" height="50px" alt="linkedin"></a>
+        <a href="https://www.instagram.com/estudio_rebel/?hl=es-la" target="_blank"><img class="icon" src="../img/instagram.svg" width="50px" height="50px" alt="instagram"></a>
+        <a href="https://wa.link/4x61n6" target="_blank"><img class="icon" src="../img/whatsapp.svg" width="50px" height="50px" alt="whatsapp"></a>
     </div>
 </footer>
+</body>
 </html>
