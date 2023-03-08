@@ -1,18 +1,145 @@
-/* Error: Undefined variable.
- *   ,
- * 5 |     font-family: $font-family_1;
- *   |                  ^^^^^^^^^^^^^^
- *   '
- *   scss\_header.scss 5:15    @import
- *   scss\estiloSass.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 5 \2502      font-family: $font-family_1;\d\a   \2502                   ^^^^^^^^^^^^^^\a   \2575 \a   scss\\_header.scss 5:15    @import\a   scss\\estiloSass.scss 1:9  root stylesheet";
+.logo {
+  border: none;
 }
+
+.nav-item {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  margin: 10px;
+  background-color: black;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.contacto {
+  background-color: #d2d264;
+}
+
+.navbar-brand {
+  float: left;
+}
+
+.navbar-toggler-icon {
+  background-color: #d2d264;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+a:active {
+  color: #ff8800;
+}
+a:link {
+  color: #ffffff;
+}
+a:hover {
+  color: #d2d264;
+  text-shadow: 4px 4px 6px #fff;
+}
+a:visited {
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  background-color: black;
+}
+ul li {
+  display: inline-block;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: "Racing Sans One";
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Racing Sans One";
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+.parrafo1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+}
+
+.parrafo2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 2px;
+  background-color: black;
+  bottom: 0;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img.icon {
+  border: none;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  background-color: black;
+}
+
+@media screen and (max-width: 576px) {
+  .cuadroContacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    border: none;
+    margin: auto;
+  }
+  .map-responsive {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

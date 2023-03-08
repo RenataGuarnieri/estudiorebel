@@ -1,0 +1,41 @@
+body {
+	background-color: $background-color_3;
+}
+form {
+	text-align: center;
+	margin-bottom: 40px;
+}
+h1 {
+	font-family: $font-family_2;
+	font-size: 35px;
+	color: $color_5;
+	text-align: center;
+	padding: 10px;
+}
+h2 {
+	font-family: $font-family_2;
+	font-size: 25px;
+	color: $color_5;
+	text-align: center;
+	padding: 10px;
+}
+.parrafo1 {
+	font-family: $font-family_3;
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 25px;
+	color: $color_5;
+	margin-top: 50px;
+}
+.parrafo2 {
+	font-family: $font-family_3;
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+	color: $color_5;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

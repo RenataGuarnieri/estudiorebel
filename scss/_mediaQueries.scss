@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+	.cuadroContacto {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 2fr;
+		border: none;
+		margin: auto;
+	}
+	.map-responsive {
+		width: 100%;
+	}
+}
