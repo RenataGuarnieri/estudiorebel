@@ -1,0 +1,54 @@
+.logo {
+	border: none;
+}
+.nav-item {
+	font-family: $font-family_1;
+	color: $color_1;
+	font-size: 22px;
+	margin: 10px;
+	background-color: $background-color_1;
+}
+.container-fluid {
+	background-color: $background-color_1;
+}
+.contacto {
+	background-color: $background-color_2;
+}
+.navbar-brand {
+	float: left;
+}
+.navbar-toggler-icon {
+	background-color: $background-color_2;
+}
+.navbar-collapse {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+a {
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	&:active {
+		color: $color_2;
+	}
+	&:link {
+		color: $color_3;
+	}
+	&:hover {
+		color: $color_4;
+		text-shadow: 4px 4px 6px #fff;
+	}
+	&:visited {
+		color: $color_3;
+	}
+}
+ul {
+	list-style-type: none;
+	background-color: $background-color_1;
+	li {
+		display: inline-block;
+	}
+}
