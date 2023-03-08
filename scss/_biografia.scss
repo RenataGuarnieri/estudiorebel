@@ -1,0 +1,19 @@
+.bio {
+	margin: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.biografia {
+	margin-top: 30px;
+	background-color: $background-color_5;
+}
+.fotobio {
+	background-color: $background-color_6;
+}
+.quiensoy {
+	background-color: $background-color_5;
+}
+.sinBorde {
+	border: 0px;
+}

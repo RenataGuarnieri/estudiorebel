@@ -1,0 +1,33 @@
+.cuadroContacto {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-template-rows: 1fr;
+	border: none;
+	margin: 80px;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.cuadroForm {
+	margin-top: 20px;
+	background-color: $background-color_2;
+	border-radius: 5px;
+	padding: 10px;
+}
+.formulario {
+	border: none;
+	align-content: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.button {
+	background-color: $background-color_4;
+	font-family: $font-family_1;
+	font-size: 24px;
+	padding: 10px;
+}
+.ubicacion {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+.card-title {
+	font-family: $font-family_1;
+	color: $color_6;
+	a {
+		&:link {
+			font-family: $font-family_1;
+			font-size: 30px;
+			background-color: $background-color_7;
+			color: $color_6;
+			text-decoration: none;
+		}
+	}
+}
+.text-secondary {
+	text-align: left;
+}
+.card-img-top {
+	max-height: 250px;
+	overflow: hidden;
+}
+.card-text {
+	font-family: $font-family_3;
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 15px;
+}
