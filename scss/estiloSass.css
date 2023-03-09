@@ -1,1 +1,339 @@
-/*# sourceMappingURL=estiloSass.css.map */
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;1,300&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Racing+Sans+One&family=Roboto+Slab:wght@600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Slab:wght@600;700&display=swap";
+.logo {
+  border: none;
+}
+
+.nav-item {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  margin: 10px;
+  background-color: black;
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.contacto {
+  background-color: #d2d264;
+}
+
+.navbar-brand {
+  float: left;
+}
+
+.navbar-toggler-icon {
+  background-color: #d2d264;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+a:active {
+  color: #ff8800;
+}
+a:link {
+  color: #ffffff;
+}
+a:hover {
+  color: #d2d264;
+  text-shadow: 4px 4px 6px #fff;
+}
+a:visited {
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  background-color: black;
+}
+ul li {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: "Racing Sans One";
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Racing Sans One";
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+}
+
+.parrafo1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+}
+
+.parrafo2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bio {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.biografia {
+  margin-top: 30px;
+  background-color: #f8f9fa;
+}
+
+.fotobio {
+  background-color: white;
+}
+
+.quiensoy {
+  background-color: #f8f9fa;
+}
+
+.sinBorde {
+  border: 0px;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: auto auto auto;
+  padding: 40px;
+  margin: 40px;
+  border: 4px solid #d2d264;
+}
+
+.serv {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.serv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icono1 {
+  border: none;
+}
+
+.icono2 {
+  margin-top: 10px;
+  transform: scale(var(--escala, 1));
+  transition: transform 0.25s;
+}
+.icono2:hover {
+  --escala: 1.2;
+  cursor: pointer;
+}
+
+.texto {
+  margin: 20px;
+  text-align: center;
+}
+
+.buttonInfo {
+  background-color: #d2d264;
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+  width: 33.33%;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.botoncito {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cuadroServicios {
+  background-color: #f8f9fa;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.fotos {
+  margin: 10px;
+}
+.fotos:hover {
+  filter: grayscale(70%) blur(2px);
+}
+
+.galeriaNovedades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fotos1 {
+  height: 400px;
+  max-width: 100%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fotos1:hover {
+  transform: scale(1.3);
+}
+
+.card-title {
+  font-family: "Bebas Neue", cursive;
+  color: #000000;
+}
+.card-title a:link {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  background-color: transparent;
+  color: #000000;
+  text-decoration: none;
+}
+
+.text-secondary {
+  text-align: left;
+}
+
+.card-img-top {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.card-text {
+  font-family: "Roboto Slab", serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.cuadroContacto {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr;
+  border: none;
+  margin: 80px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.cuadroForm {
+  margin-top: 20px;
+  background-color: #d2d264;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.formulario {
+  border: none;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #c2c2c2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.ubicacion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 2px;
+  background-color: black;
+  bottom: 0;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img.icon {
+  border: none;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  background-color: black;
+}
+
+@media screen and (max-width: 576px) {
+  .cuadroContacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    border: none;
+    margin: auto;
+  }
+  .map-responsive {
+    width: 100%;
+  }
+}/*# sourceMappingURL=estiloSass.css.map */
